@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="UselessLeaf,UselessParent">
+
+
+        <!--<fragment-->
+            <!--android:id="@+id/autocomplete_from"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+            <!--/>-->
+
+        <!--<fragment android:id="@+id/autocomplete_to"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+            <!--/>-->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editFrom"
+            android:hint="From"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:inputType="text" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTo"
+            android:hint="To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:clickable="true"
+            android:editable="false"
+            android:hint="Date"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:text="Submit"
+        android:background="@drawable/custom_button"
+        tools:ignore="ButtonStyle" />
+
+
+</RelativeLayout>

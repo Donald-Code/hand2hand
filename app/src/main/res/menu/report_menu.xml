@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReportCustomerActivity">
+    <item
+        android:id="@+id/itemSave"
+        android:orderInCategory="100"
+        android:title="Save file"
+        app:showAsAction="ifRoom" />
+    <!--<item-->
+        <!--android:id="@+id/itemSearch"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:icon="@android:drawable/ic_menu_search"-->
+        <!--android:title="Search"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/itemSort"
+        android:orderInCategory="100"
+        android:title="Sort by"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/itemName"
+                android:title="Name" >
+                <menu>
+                    <item
+                        android:id="@+id/itemNameAsc"
+                        android:title="Asc" />
+                    <item
+                        android:id="@+id/itemNameDesc"
+                        android:title="Desc" />
+                </menu>
+            </item>
+            <item
+                android:id="@+id/itemSurname"
+                android:title="Surname" />
+            <item
+                android:id="@+id/itemGender"
+                android:title="Gender" />
+            <item
+                android:id="@+id/itemAge"
+                android:title="Age" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/itemView"
+        android:orderInCategory="100"
+        android:title="View files"
+        app:showAsAction="never" >
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/itemSubOne"-->
+                <!--android:title="Sort" />-->
+            <!--<item-->
+                <!--android:id="@+id/itemSubTwo"-->
+                <!--android:title="Filter" />-->
+            <!--<item-->
+                <!--android:id="@+id/itemSubThree"-->
+                <!--android:title="Search" />-->
+        <!--</menu>-->
+
+    </item>
+</menu>

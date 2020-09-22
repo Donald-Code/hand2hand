@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="overlayBackground">#7f333639</color>
+
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGrey">#C3C3C3</color>
+
+    <color name="white_100p">#FFFFFFFF</color>
+    <color name="white_80p">#CCFFFFFF</color>
+    <color name="white_75p">#C0FFFFFF</color>
+    <color name="white_50p">#80FFFFFF</color>
+    <color name="white_25p">#40FFFFFF</color>
+
+    <color name="darkestblue_100p">#FF1C3261</color>
+    <color name="darkestblue_75p">#C01C3261</color>
+    <color name="darkestblue_50p">#801C3261</color>
+    <color name="darkestblue_25p">#401C3261</color>
+
+    <color name="lightblue_100p">#FFA2ACC1</color>
+    <color name="lightblue_75p">#C0A2ACC1</color>
+
+    <color name="lightgrey_100p">#FFACACAC</color>
+    <color name="lightgrey_75p">#C0ACACAC</color>
+
+    <color name="color7">#7FFF00</color>
+    <color name="color8">#FF0000</color>
+
+    <color name="windowBackground">#F3F3F3</color>
+
+    <color name="card_text_color">#FFFFFF</color>
+    <color name="card_label_color">#D4D9DC</color>
+    <color name="card_cvv_color">#383838</color>
+    <color name="CTA_text">#FFFFFF</color>
+    <color name="CTA_bg">#32C25E</color>
+</resources>

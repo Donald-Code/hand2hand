@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "196936121522",
+    "firebase_url": "https://courier-service-cb608.firebaseio.com",
+    "project_id": "courier-service-cb608",
+    "storage_bucket": "courier-service-cb608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196936121522:android:562f336666021fcc",
+        "android_client_info": {
+          "package_name": "tshabalala.bongani.courierservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196936121522-4ck2g992tmc1d6scjtghdd7bn12v4o6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA40vaKhT-TtN1ST6poPZ_KmPIK81MgwdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196936121522-4ck2g992tmc1d6scjtghdd7bn12v4o6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

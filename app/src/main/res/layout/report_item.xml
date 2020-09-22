@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/shape_round_border_white"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TableLayout
+                    android:id="@+id/table_headers"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="NestedScrolling">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/fillable_areass">
+                        <TableLayout
+                            android:id="@+id/fixed_columns"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <HorizontalScrollView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <TableLayout
+                                android:id="@+id/scrollable_parts"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </HorizontalScrollView>
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <TableLayout
+                    android:id="@+id/table_header"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="NestedScrolling">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/fillable_areas">
+                        <TableLayout
+                            android:id="@+id/check_column"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TableLayout
+                            android:id="@+id/fixed_column"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <HorizontalScrollView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+                            <TableLayout
+                                android:id="@+id/scrollable_part"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            tools:ignore="UselessLeaf,UselessParent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/dialogMessageTV"
+                android:text="Parcel details"
+                android:textSize="@dimen/abc_text_size_medium_material"
+                android:textColor="@color/colorPrimary"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editParcelName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Parcel name"
+                android:inputType="textPersonName|textCapSentences"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:imeOptions="actionNext"
+                android:maxLines="3"
+                android:maxLength="25"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editParcelDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Parcel description"
+                android:inputType="textPersonName|textCapSentences"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:imeOptions="actionNext"
+                android:maxLength="25"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editPhone"
+                android:hint="phone number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:inputType="phone"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="10"
+                app:met_minCharacters="10"
+                android:maxLength="10"
+                app:met_primaryColor="@color/colorPrimary"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editWeight"
+                android:hint="Parcel weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:inputType="numberDecimal"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editParcelCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Category"
+                android:inputType="textPersonName|textCapSentences"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:imeOptions="actionNext"
+                android:maxLength="25"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editPickupPlace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pickup Place"
+                android:inputType="textPersonName|textCapSentences"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:imeOptions="actionNext"
+                android:maxLength="25"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editParcelDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Destination"
+                android:inputType="textPersonName|textCapSentences"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:imeOptions="actionNext"
+                android:maxLength="25"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editPrice"
+                android:hint="Amount for parcel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:inputType="numberDecimal"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSend"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Send Parcel"
+                android:background="@drawable/custom_button"
+                tools:ignore="ButtonStyle" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
